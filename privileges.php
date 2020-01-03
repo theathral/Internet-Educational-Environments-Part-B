@@ -57,7 +57,7 @@ $currentStudents = mysqli_query($connector, "SELECT * FROM user WHERE role='s' O
             if ($record['id'] != $_SESSION['currentId']) {
                 echo "<a class='bold'>" . $record['name'] . " " . $record['surname'] . "</a>" .
                         "<a href='privilegesDoChange.php?downgrade=" . $record['id'] . "'><img class='editIcon' src='images/downArrow.png' alt='downgrade action'></a>" .
-                        "<a href='privilegeDoDelete.php?delete=" . $record['id'] . "'><img class='editIcon' src='images/delete.png' alt='delete action'></a>" .
+                        "<a href='privilegesDoDelete.php?delete=" . $record['id'] . "'><img class='editIcon' src='images/delete.png' alt='delete action'></a>" .
 
                     "<ul class='listNone'>" .
                     "<li><a class=bold> Username: </a>" . $record['username'] . "</li>" .
@@ -81,7 +81,7 @@ $currentStudents = mysqli_query($connector, "SELECT * FROM user WHERE role='s' O
         while ($record = mysqli_fetch_assoc($currentStudents)) {
             echo "<a class='bold'>" . $record['name'] . " " . $record['surname'] . "</a>" .
                     "<a href='privilegesDoChange.php?upgrade=" . $record['id'] . "'><img class='editIcon' src='images/upArrow.png' alt='upgrade action'></a>" .
-                    "<a href='privilegeDoDelete.php?delete=" . $record['id'] . "'><img class='editIcon' src='images/delete.png' alt='delete action'></a>" .
+                    "<a href='privilegesDoDelete.php?delete=" . $record['id'] . "'><img class='editIcon' src='images/delete.png' alt='delete action'></a>" .
 
                 "<ul class='listNone'>" .
                 "<li><a class=bold> Username: </a>" . $record['username'] . "</li>" .
