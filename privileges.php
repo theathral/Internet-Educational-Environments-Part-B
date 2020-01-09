@@ -60,7 +60,7 @@ $currentStudents = mysqli_query($connector, "SELECT * FROM user WHERE role='s' O
                         "<a href='privilegesDoDelete.php?delete=" . $record['id'] . "'><img class='editIcon' src='images/delete.png' alt='delete action'></a>" .
 
                     "<ul class='listNone'>" .
-                    "<li><a class=bold> Username: </a>" . $record['username'] . "</li>" .
+                    "<li><a class=bold> Username / E-mail: </a>" . $record['username'] . "</li>" .
                     "<li><a class=bold> Role: </a> Tutor</li>" .
                     "</ul>
                 <hr>";

@@ -1,6 +1,7 @@
 body {
     font-size: large;
     background-color: gainsboro;
+    box-sizing: border-box;
 }
 
 .myTitle h1 {
@@ -78,23 +79,6 @@ body {
     background-color: gainsboro;
     margin-left: 200px;
     padding: 16px;
-}
-
-@media screen and (max-width: 500px) {
-    .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-
-    .sidebar a {
-        text-align: center;
-        float: none;
-    }
-
-    .content {
-        margin-left: 0;
-    }
 }
 
 hr {
@@ -220,5 +204,26 @@ input[type=submit]:not(.cancel):hover, button:hover {
     text-align: center;
 }
 
+@media screen and (max-width: 500px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+    .container {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
 
 

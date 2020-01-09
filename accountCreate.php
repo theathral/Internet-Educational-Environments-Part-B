@@ -44,7 +44,7 @@ include "validateNot.php";
             </div>
 
             <div class="row">
-                <label for="username">Username:</label>
+                <label for="username">Username / E-mail:</label>
             </div>
             <div class="row">
                 <input type="email" name="username" placeholder="info@example.com" required="required">

@@ -30,7 +30,7 @@ include "validateNot.php";
         <form method="post" action="loginDo.php">
 
             <div class="row">
-                <label for="username">Username:</label>
+                <label for="username">Username / E-mail:</label>
             </div>
             <div class="row">
                 <input type="email" name="username" placeholder="Your username..." required="required">
