@@ -38,7 +38,7 @@ include "validateTutor.php";
 
 <!-- Page content -->
 <div class="content">
-    Welcome to to the course Internet Educational Environments<br>
+    Welcome to the course Internet Educational Environments<br>
     <br>
 
     The aim is to learn the basics on creating a website<br>
