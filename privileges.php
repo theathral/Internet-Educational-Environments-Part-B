@@ -17,6 +17,7 @@ $currentStudents = mysqli_query($connector, "SELECT * FROM user WHERE role='s' O
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Changing Privileges</title>
 </head>
